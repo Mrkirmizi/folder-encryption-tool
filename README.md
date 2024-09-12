@@ -8,31 +8,31 @@
 - Decrypt an encrypted zip file
 - Generate and save a secret key for encryption/decryption
 
-## Installation
+# Installation
 
-### Step 1: Clone the repository
+## Step 1: Clone the repository
 
 - First, clone the repository to your local machine:
 
-# bash
+### bash
 git clone https://github.com/yourusername/folder-encryption-tool.git
 cd folder-encryption-tool
 
-### Step 2: Install required libraries
+## Step 2: Install required libraries
 
 - This project requires Python and several libraries. You can install them using pip:
 
-# bash 
+### bash 
 pip install cryptography
 
-### Step 3: Run the application
+## Step 3: Run the application
 
 - After installing the required libraries, you can run the tool using:
 
-# bash
+### bash
 python gui.py
 
-### Usage
+## Usage
 
 1) Generate Key: Click the "Generate Key" button to generate a new encryption key. This key will be saved as secret.key in the current directory.
 
@@ -46,14 +46,14 @@ python gui.py
     - Click "Decrypt File" to choose an encrypted zip file (.zip.enc).
     - The tool will decrypt the file and restore the original zipped folder.
 
-### Folder Structure
+## Folder Structure
 
-|-- folder-encryption-tool/
-    |-- gui.py          # GUI file for the application
-    |-- encrypt_decrypt.py  # Contains encryption, decryption, and zipping functions
-    |-- secret.key      # Generated key (after first run)
+- |-- folder-encryption-tool/
+   - |-- gui.py          # GUI file for the application
+   - |-- encrypt_decrypt.py  # Contains encryption, decryption, and zipping functions
+   - |-- secret.key      # Generated key (after first run)
 
-### Requirements
+## Requirements
 
 - Python 3.7+
 - cryptography library
