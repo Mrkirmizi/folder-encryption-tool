@@ -14,24 +14,24 @@
 
 - First, clone the repository to your local machine:
 
-### bash
+ ```bash
 git clone https://github.com/yourusername/folder-encryption-tool.git
 cd folder-encryption-tool
-
+ ```
 ## Step 2: Install required libraries
 
 - This project requires Python and several libraries. You can install them using pip:
 
-### bash 
+ ```bash
 pip install cryptography
-
+```
 ## Step 3: Run the application
 
 - After installing the required libraries, you can run the tool using:
 
-### bash
+ ```bash
 python gui.py
-
+```
 ## Usage
 
 1) Generate Key: Click the "Generate Key" button to generate a new encryption key. This key will be saved as secret.key in the current directory.
